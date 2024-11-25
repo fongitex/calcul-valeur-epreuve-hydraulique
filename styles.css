@@ -1,0 +1,104 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Fond gris clair */
+    color: #333; /* Texte sombre pour un contraste optimal */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #003366; /* Bleu foncé pour une touche professionnelle */
+    color: #fff; /* Texte blanc pour un contraste net */
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.drapeau {
+    width: 50px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.calcul-container {
+    background-color: #fff;
+    color: #333;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+input, button {
+    font-size: 16px;
+    padding: 12px;
+    margin: 10px 0;
+    width: 100%;
+    box-sizing: border-box; /* Pour s'assurer que le padding n'affecte pas la largeur */
+}
+
+button {
+    background-color: #0052cc; /* Un bleu vif pour un aspect professionnel */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #003366; /* Un bleu plus foncé au survol */
+}
+
+#resultats {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.resultat-case {
+    flex: 1;
+    background-color: #f9f9f9; /* Fond très clair pour la boîte des résultats */
+    color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd; /* Bordure discrète */
+    margin: 0 10px;
+    text-align: left; /* Aligner le texte à gauche pour plus de lisibilité */
+}
+
+#epreuve-initiale {
+    background-color: #d3f9d8; /* Vert clair pour l'épreuve initiale */
+    border: 1px solid #3aaf42; /* Bordure verte */
+}
+
+#reepreuve {
+    background-color: #f9e6a1; /* Jaune clair pour la réépreuve */
+    border: 1px solid #e1c144; /* Bordure jaune */
+}
+
+#reepreuve-reparation {
+    background-color: #fdd0d0; /* Rouge pâle pour la réépreuve en cas de réparation */
+    border: 1px solid #f56565; /* Bordure rouge */
+}
+
+footer {
+    margin-top: 30px;
+    background-color: #003366;
+    color: #fff;
+    padding: 15px;
+    font-style: italic;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 0;
+}

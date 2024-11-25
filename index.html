@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcul de la valeur d'épreuve hydraulique</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Flag_of_Morocco.svg" alt="Drapeau du Maroc" class="drapeau">
+        <h1>Calcul de la valeur d'épreuve hydraulique en fonction de la pression de service max (timbre) en bars selon la réglementation marocaine de vapeur (dahir du 22 juillet 1953)</h1>
+    </header>
+
+    <main>
+        <div class="calcul-container">
+            <label for="pression">Pression de service max (bars) :</label>
+            <input type="number" id="pression" step="0.01" placeholder="Entrez la pression en bars">
+            <button onclick="calculerEpreuve()">Calculer</button>
+            <div id="resultats">
+                <div id="epreuve-initiale" class="resultat-case">
+                    <p><strong>Épreuve initiale :</strong> <span>Résultat ici</span></p>
+                </div>
+                <div id="reepreuve" class="resultat-case">
+                    <p><strong>Réépreuve :</strong> <span>Résultat ici</span></p>
+                </div>
+                <div id="reepreuve-reparation" class="resultat-case">
+                    <p><strong>Réépreuve en cas de réparation :</strong> <span>Résultat ici</span></p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2024 Geanah Adil</p>
+    </footer>
+</body>
+</html>
